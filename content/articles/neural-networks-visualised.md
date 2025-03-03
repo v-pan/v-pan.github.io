@@ -99,6 +99,7 @@ which is the same form as the equation we started with! What we're showing here 
 
 Clearly then, any network built up from just *linear* transformations isn't going to be enough to tackle data that isn't linearly separable. The solution is then simple, we just add non-linearity!
 
+# Non-Linearity
 A non-linear function is just any function which can't be written in the form $\boldsymbol{y} = w\boldsymbol{x} + b$, which is most of them. We'll take a fairly commonly used one, the $tanh$ function, but any choice would work here. In two dimensions, the $tanh$ function looks like the following transformation
 
 ![[HyperbolicTangentLoop.gif]]
