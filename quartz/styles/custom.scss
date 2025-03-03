@@ -1,3 +1,50 @@
 @use "./base.scss";
+@use "./themes";
+
+[saved-theme="dark"] {
+  --custom-background: #1e1e2e;
+  --custom-border: #45475a;
+  --custom-lines: #b4befe;
+  --custom-text: #cdd6f4;
+  --custom-header-text: #a6adc8;
+  --custom-special-text: #89b4fa;
+  --custom-hover: #74c7ec;
+  --custom-links-background: #89b4fa33;
+  --custom-highlight: #9399b24d;
+}
+
+[saved-theme="light"] {
+  --custom-background: #eff1f5;
+  --custom-border: #bcc0cc;
+  --custom-lines: #7287fd;
+  --custom-text: #4c4f69;
+  --custom-header-text: #6c6f85;
+  --custom-special-text: #1e66f5;
+  --custom-hover: #209fb5;
+  --custom-links-background: #1e66f533;
+  --custom-highlight: #7c7f934d;
+}
 
 // put your custom CSS here!
+:root {
+  --h1-color: var(--custom-header-text);
+  --h2-color: var(--custom-header-text);
+  --h3-color: var(--custom-header-text);
+  --h4-color: var(--custom-header-text);
+  --h5-color: var(--custom-header-text);
+  --h6-color: var(--custom-header-text);
+}
+
+::selection {
+  background: var(--custom-highlight);
+  color: inherit;
+}
+
+// Fix mobile backgrounds for left-sidebar
+.explorer #explorer-content,
+.page > #quartz-body .sidebar.left:has(.explorer) {
+  background-color: var(--background-primary);
+}
+.page > #quartz-body .sidebar.left:has(.explorer){
+  padding-bottom: 2rem;
+}
