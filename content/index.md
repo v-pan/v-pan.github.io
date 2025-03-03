@@ -1,12 +1,7 @@
 ---
-title: Home
+title: buffers
 ---
-
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+A Quartz site for me to share whatever I've been doing or thinking about.
 
 # Stuff I've Written About
-%% [](adaptive-networks.md)]]
-- [[fractal-rendering]]
-- [[cohomological-feature-extraction]]
-- [[neural-networks-visualised]] %%
+- [[neural-networks-visualised|Visualising Neural Networks]]

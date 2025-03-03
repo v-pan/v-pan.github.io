@@ -132,3 +132,11 @@ This definition allows us to re-characterise the definition of a diffeomorphism 
 A *diffeomorphism* is a bijection between two sets with smooth structure which, when used to identify the points of the two sets, also identifies the smooth structures.
 
 This makes formal the idea that diffeomorphisms are the maps which preserve smooth structures, i.e. isomorphisms of smooth structure.
+
+The *standard smooth structure on $\mathbb{R}^{n}$* is given by using the identity map $id \colon \mathbb{R}^n \rightarrow \mathbb{R}^n$ as the chart. 
+
+# Manifolds
+Finally, we get to defining a manifold.
+
+## Manifold
+For any $n \in \mathbb{N}$, $n \ge 0$, an $n$-dimensional *topological manifold* is a Hausdorff topological space locally homeomorphic to $\mathbb{R}^n$, with a countable basis of open sets.
